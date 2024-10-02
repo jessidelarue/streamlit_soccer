@@ -151,7 +151,8 @@ def exibir_estats_jogador(eventos, jogadores_selecionados):
 def main():
     st.title('Dashboard Interativo')
     st.subheader('Trabalhando com análise de dados no mundo do futebol')
-
+    st.image('imagem.webp', use_column_width=True)
+    
     with st.spinner('Carregando dados...'):
         time.sleep(3)
 
